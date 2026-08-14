@@ -53,6 +53,10 @@ npm run dist:win   # Windows 安装包，产物在 dist/ 目录
 
 本项目为非官方社区项目。DeepSeek Harness 由 DeepSeek-AI 开发并以 MIT 协议开源。
 
+## Star 支持
+
+如果这个项目对你有帮助，欢迎多多支持，点一个 Star！你的 Star 能让更多开发者发现 DeepSeek Harness 生态。也欢迎提交 Issue 和 PR。
+
 ## 许可证
 
 MIT (c) DeepSeek Harness Desktop contributors
