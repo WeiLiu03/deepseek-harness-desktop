@@ -76,7 +76,7 @@ async function startServer() {
   }  const sysNode = findSystemNode();
   const nodeBin = sysNode || process.execPath;
   const env = sysNode ? process.env : Object.assign({}, process.env, { ELECTRON_RUN_AS_NODE: "1" });
-  try { fs.appendFileSync(LOG, "[desktop] spawning dsh via " + nodeBin + "\n"); } catch (e) {}  server = spawn(nodeBin, [CLI, "web", "--port", String(PORT)], { env: env, stdio: ["ignore", "pipe", "pipe"] });
+  try { fs.appendFileSync(LOG, "[desktop] spawning dsh via " + nodeBin + "\n"); } catch (e) {}  server = spawn(nodeBin, ["--expose-internals", CLI, "web", "--port", String(PORT)], { env: env, stdio: ["ignore", "pipe", "pipe"] });
   server.stdout.on("data", (d) => { try { fs.appendFileSync(LOG, d); } catch (e) {} });
   server.stderr.on("data", (d) => { try { fs.appendFileSync(LOG, d); } catch (e) {} });  server.on("error", (e) => { try { fs.appendFileSync(LOG, "[desktop] spawn error: " + e.message + "\n"); } catch (err) {} });
   server.on("exit", (code) => { try { fs.appendFileSync(LOG, "[desktop] server exited code=" + code + "\n"); } catch (err) {} });
