@@ -66,12 +66,14 @@ Artifacts are written to `dist/`.
 ## How it works
 
 1. On launch, the app probes the configured port.
-2. If something is already listening there (your own `dsh web`), it is loaded directly.3. Otherwise it spawns the bundled `dsh web` (using the system Node.js when available, falling back to Electron's Node runtime) and polls until the server is ready.
+2. If something is already listening there (your own `dsh web`), it is loaded directly.
+3. Otherwise it spawns the bundled `dsh web` (using the system Node.js when available, falling back to Electron's Node runtime) and polls until the server is ready.
 4. When the app quits, the spawned server is terminated.
 
 ## Roadmap
 
-- [ ] First-run onboarding (model API key setup)- [ ] Auto-update
+- [ ] First-run onboarding (model API key setup)
+- [ ] Auto-update
 - [ ] Profile support (`dsh --profile`)
 - [ ] Built-in server log viewer
 
@@ -88,9 +90,9 @@ npm start
 
 This is an unofficial community project. DeepSeek Harness itself is developed by DeepSeek-AI and released under the MIT License.
 
-## Star History
+## Support / Star
 
-If this saves you a terminal window, consider giving it a star - it helps more developers find the Harness ecosystem.
+If this project saves you a terminal window, please consider giving it a Star - your star helps more developers find the DeepSeek Harness ecosystem, and it keeps this project alive. Issues, PRs and ideas are all welcome!
 
 ## License
 
