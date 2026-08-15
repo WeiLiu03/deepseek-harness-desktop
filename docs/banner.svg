@@ -1,0 +1,30 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='640' viewBox='0 0 1280 640'>
+<defs>
+<linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+<stop offset='0' stop-color='#0b1020'/>
+<stop offset='1' stop-color='#14204a'/>
+</linearGradient>
+<linearGradient id='w' x1='0' y1='0' x2='1' y2='1'>
+<stop offset='0' stop-color='#4db8ff'/>
+<stop offset='1' stop-color='#2b7fd4'/>
+</linearGradient>
+</defs>
+<rect width='1280' height='640' fill='url(#bg)'/>
+<g stroke='#1e2a4a' stroke-width='1' opacity='0.5'>
+<path d='M0 160 H1280 M0 320 H1280 M0 480 H1280 M320 0 V640 M640 0 V640 M960 0 V640'/>
+</g>
+<g opacity='0.95'>
+<rect x='820' y='130' width='370' height='260' rx='14' fill='#0f1830' stroke='#2b3f6e' stroke-width='2'/>
+<rect x='820' y='130' width='370' height='40' rx='14' fill='#16224a'/>
+<circle cx='846' cy='150' r='6' fill='#ff5f57'/><circle cx='868' cy='150' r='6' fill='#febc2e'/><circle cx='890' cy='150' r='6' fill='#28c840'/>
+<rect x='845' y='195' width='250' height='14' rx='7' fill='#4db8ff' opacity='0.9'/>
+<rect x='845' y='225' width='310' height='12' rx='6' fill='#2b3f6e'/>
+<rect x='845' y='250' width='280' height='12' rx='6' fill='#2b3f6e'/>
+<rect x='845' y='285' width='180' height='26' rx='13' fill='#4db8ff'/>
+</g>
+<path d='M90 330 q60 -120 190 -92 q-26 34 -18 62 q90 -34 168 12 q-110 96 -236 66 q-70 -16 -104 -48 z' fill='url(#w)' opacity='0.92'/>
+<circle cx='150' cy='300' r='7' fill='#0b1020'/>
+<text x='80' y='440' font-family='Segoe UI, Arial, sans-serif' font-size='64' font-weight='700' fill='#ffffff'>DeepSeek Harness Desktop</text>
+<text x='84' y='496' font-family='Segoe UI, Arial, sans-serif' font-size='34' fill='#4db8ff'>Everything is a Plugin - now in one native window</text>
+<text x='84' y='556' font-family='Consolas, monospace' font-size='24' fill='#8b96ad'>dsh web · desktop edition · Windows / Linux / macOS</text>
+</svg>
